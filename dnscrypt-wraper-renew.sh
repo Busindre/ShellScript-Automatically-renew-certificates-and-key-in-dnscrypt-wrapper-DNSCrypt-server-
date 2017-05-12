@@ -45,7 +45,7 @@ new_key() {
         --cert-file-expire-days=1 && \
     mv -f "${STKEYS_DIR}/${ts}.cert" "${STKEYS_DIR}/dnscrypt.cert"
     chown -R dnscrypt:dnscrypt /opt/dnscrypt-wrapper/
-    echo "$(date) Nueva Key y certificado generados: ${ts}.cert y ${ts}.key" >> /var/log/dnscrypt-wrapper
+    echo "$(date) New key and certificate generated: ${ts}.cert y ${ts}.key" >> /var/log/dnscrypt-wrapper
 }
 
 stkeys_files() {
