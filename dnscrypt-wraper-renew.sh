@@ -5,7 +5,7 @@
 # 12 hours. DNS clients with the old certificates will suffer no service disruption on renewals as they will still be valid for 12 more hours.
 # The script will start dnscrypt-wrapper if it is not running. To use an unprivileged user you must adapt the paths or configure the permissions.
 
-# Crontab every 12 hours: * */12 * * * /opt/dnscrypt-wrapper/dnscrpyt-wraper_renew.sh 1>&1
+# Crontab every 12 hours: * */12 * * * /opt/dnscrypt-wrapper/dnscrpyt-wraper-renew.sh 1>&1
 
 ######### CONFIGURATION #########
 
