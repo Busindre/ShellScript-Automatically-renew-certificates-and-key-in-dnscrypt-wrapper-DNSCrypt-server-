@@ -1,4 +1,4 @@
-## dnscrpyt-wraper-renew.sh Automatically renew certificates / keys (dnscrypt-wrapper).
+## DNScrypt-wraper-renew.sh: Automatically renew certificates / keys (dnscrypt-wrapper).
 
 
 **dnscrypt-wrapper**: https://github.com/cofyc/dnscrypt-wrapper
